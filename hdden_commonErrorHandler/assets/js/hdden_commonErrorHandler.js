@@ -6,7 +6,7 @@
  * @returns 
  */
 function hdden_commonErrorHandler(data){
-    var debug = true;
+    var debug = false;
 
     try {
         /**
