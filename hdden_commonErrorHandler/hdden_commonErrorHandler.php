@@ -2,7 +2,7 @@
 /*
 Plugin Name: HDDen Common Error Handler
 Description: Добавляет на фронтенд функцию hdden_commonErrorHandler({'message': 'Hello PHP_EOL world', 'reason': ''}), которая передает на бэкенд данные и отправляет их в telegram администратору
-Version: 1.0.1
+Version: 1.0.2
 Author: HDDen
 */
 
