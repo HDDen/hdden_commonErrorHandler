@@ -1,7 +1,7 @@
 <?php
 // https://gist.github.com/HDDen/07deba7a4b2b1b80fca2acee1dc0628f
-// 1.1.0
-if (!\function_exists('hdden__minified_varexport')){
+// 1.1.1
+if (!\function_exists(__NAMESPACE__.'\hdden__minified_varexport')){
     function hdden__minified_varexport($value, $method = 'var_export'){
         $result = '';
     

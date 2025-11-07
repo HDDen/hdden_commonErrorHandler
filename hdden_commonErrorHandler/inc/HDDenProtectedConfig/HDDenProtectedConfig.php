@@ -1,11 +1,13 @@
 <?php
+// https://github.com/HDDen/HDDenProtectedConfig/blob/main/HDDenProtectedConfig.php
 /**
  * Читает / пишет файл в .php-контейнер с защищенным началом
  * Use '...filename.json.php' as path, add .php manually!
  * 
- * 1.0.3
+ * 1.0.4
  */
-if (!class_exists('HDDenProtectedConfig')){
+
+if (!class_exists(__NAMESPACE__.'\HDDenProtectedConfig')){
     class HDDenProtectedConfig{
         private $fileStart = '<?php die(); /*';
         private $fileExt = '.php';
